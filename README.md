@@ -16,8 +16,8 @@ The repository is organised as follows:
 - `Popov.m` Implementation of the Popov criterion - See Theorem 2 and Remark 6.
 - `Popov_Like1.m` Implementation of the Relaxed Popov-Like criterion - See Corollary 1.
 - `Popov_Like2.m` Implementation of the Relaxed Popov-Like criterion - See Corollary 2.
-- `Park.m` Implementation of Theorem 2 from reference 13.
-- `ZF.m` Implementation of Theorem X from reference Y.
+- `Park.m` Implementation of Theorem 2 from Reference 13.
+- `ZF.m` Implementation of Theorem X from Reference Y.
 
 ## Getting Started
 Run `examples.m` to repeat the experiments in the paper or select a subset of the examples by defining them in the *Ex_array* variable.  
