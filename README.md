@@ -14,8 +14,8 @@ The repository is organised as follows:
 - `Circle.m` Implementation of the Circle criterion - See Theorem 1 and Remark 4.
 - `Circle_Like.m` Implementation of the Circle-Like criterion - See Theorem 1.
 - `Popov.m` Implementation of the Popov criterion - See Theorem 2 and Remark 6.
-- `Popov_Like1.m` Implementation of the Relaxed Popov-Like criterion - See Theorem 2 and Corollary 1.
-- `Popov_Like2.m` Implementation of the Relaxed Popov-Like criterion - See Theorem 2 and Corollary 2.
+- `Popov_Like1.m` Implementation of the Relaxed Popov-Like criterion - See Corollary 1.
+- `Popov_Like2.m` Implementation of the Relaxed Popov-Like criterion - See Corollary 2.
 - `Park.m` Implementation of Theorem 2 from reference 13.
 - `ZF.m` Implementation of Theorem X from reference Y.
 
