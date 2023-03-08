@@ -74,16 +74,16 @@ end
 % LMI
 lmiterm([1,1,1,X],1,A,'s');
 
-lmiterm([1,1,2,X],-1,B);
+lmiterm([1,1,2,X],-1*alpha,B);
 lmiterm([1,1,2,Y],A',1);
 lmiterm([1,1,2,M],A'*C',1);
-lmiterm([1,1,2,N1],C'*alpha,1);
+lmiterm([1,1,2,N1],C',1);
 
 lmiterm([1,1,3,Y],1,1);
-lmiterm([1,1,3,N2],A'*C'*alpha,1);
+lmiterm([1,1,3,N2],A'*C',1);
 
-lmiterm([1,2,2,-Y],-1,B,'s');
-lmiterm([1,2,2,M],-1,C*B,'s');
+lmiterm([1,2,2,-Y],-1*alpha,B,'s');
+lmiterm([1,2,2,M],-1*alpha,C*B,'s');
 lmiterm([1,2,2,N1],-1,1,'s');
 
 lmiterm([1,2,3,Z],1,1);

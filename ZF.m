@@ -84,53 +84,53 @@ Bab = lmivar(3,kron(sBa,ones(1,m)));
         
 % LMI
 lmiterm([1,1,1,S11],1,A,'s');
-lmiterm([1,1,1,Bab],-alpha,WC*C,'s');
+lmiterm([1,1,1,Bab],-1,WC*C,'s');
 
 lmiterm([1,1,2,S11],1,A);
 lmiterm([1,1,2,P11],A',1);
 lmiterm([1,1,2,-Acb],1,1);
 lmiterm([1,1,2,-Aab],1,1);
-lmiterm([1,1,2,-Bcb],alpha*C'*WB,1);
-lmiterm([1,1,2,Bab],-alpha,WC*C);
+lmiterm([1,1,2,-Bcb],C'*WB,1);
+lmiterm([1,1,2,Bab],-1,WC*C);
 
 lmiterm([1,1,3,N],A',1);
-lmiterm([1,1,3,-Bab],alpha*C'*WC,1);
+lmiterm([1,1,3,-Bab],C'*WC,1);
 lmiterm([1,1,3,-Aab],1,1);
 
-lmiterm([1,1,4,S11],1,B);
+lmiterm([1,1,4,S11],1*alpha,B);
 lmiterm([1,1,4,Bcb],1,WC);
 lmiterm([1,1,4,Bab],1,WC);
-lmiterm([1,1,4,-H0],alpha*C',1);
+lmiterm([1,1,4,-H0],C',1);
 if Pflag == 1
-   lmiterm([1,1,4,etaP],A'*C',1);   % Popov 
-   lmiterm([1,1,4,-VP],alpha*C',1); % Circle
+   lmiterm([1,1,4,etaP],A'*C',1);   % Popov
+   lmiterm([1,1,4,-VP],C',1);       % Circle
 end
 
 lmiterm([1,2,2,P11],1,A,'s');
-lmiterm([1,2,2,Bcb],alpha,WB*C,'s');
+lmiterm([1,2,2,Bcb],1,WB*C,'s');
  
 lmiterm([1,2,3,N],A',1);
-lmiterm([1,2,3,-Bab],alpha*C'*WC,1);
+lmiterm([1,2,3,-Bab],C'*WC,1);
 lmiterm([1,2,3,Aab],-1,1);
 
-lmiterm([1,2,4,P11],1,B);
+lmiterm([1,2,4,P11],1*alpha,B);
 lmiterm([1,2,4,Bcb],-1,WB);
 lmiterm([1,2,4,Bab],-1,WB);
-lmiterm([1,2,4,-H0],alpha*C',1);
+lmiterm([1,2,4,-H0],C',1);
 if Pflag == 1
-   lmiterm([1,2,4,etaP],A'*C',1);   % Popov 
-   lmiterm([1,2,4,-VP],alpha*C',1); % Circle 
+   lmiterm([1,2,4,etaP],A'*C',1); % Popov
+   lmiterm([1,2,4,-VP],C',1);     % Circle
 end
 
 lmiterm([1,3,3,Aab],-1,1,'s');
 
-lmiterm([1,3,4,N],1,B);
+lmiterm([1,3,4,N],1*alpha,B);
 lmiterm([1,3,4,Bab],-1,WB+WC);
 
 lmiterm([1,4,4,H0],-1,1,'s');
 if Pflag == 1
-   lmiterm([1,4,4,etaP],1,C*B,'s'); % Popov
-   lmiterm([1,4,4,VP],1,-1,'s');    % Circle 
+   lmiterm([1,4,4,etaP],1*alpha,C*B,'s'); % Popov
+   lmiterm([1,4,4,VP],1,-1,'s');          % Circle 
 end
         
 % L1 bound LMI
