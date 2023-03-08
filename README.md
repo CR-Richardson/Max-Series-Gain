@@ -6,7 +6,7 @@ This code acompanies the paper *Strengthened Circle and Popov cirteria for the s
 * Matthew C Turner (m.c.turner@soton.ac.uk)
 
 ## Prerequisites
-All the code is written in MATLAB. The LMI's are solved using the *robust control toolbox* which must be installed as an add-on.
+All the code is written in MATLAB. The LMI's are solved using the *Robust Control Toolbox* which must be installed as an add-on.
 
 ## Overview
 The repository is organised as follows:
