@@ -10,7 +10,7 @@ All the code is written in MATLAB. The LMI's are solved using the *robust contro
 
 ## Overview
 The repository is organised as follows:
-- `examples.m` The master script. It defines the example systems and parameters of the various criteria. It then loops through each example, computing the maximum series gain according to each criterion,  and displays the results.
+- `Examples.m` The master script. It defines the example systems and parameters of the various criteria. It then loops through each example, computing the maximum series gain according to each criterion,  and displays the results.
 - `Circle.m` Implementation of the Circle criterion - See Theorem 1 and Remark 4.
 - `Circle_Like.m` Implementation of the Circle-Like criterion - See Theorem 1.
 - `Popov.m` Implementation of the Popov criterion - See Theorem 2 and Remark 6.
