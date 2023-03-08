@@ -20,4 +20,4 @@ The repository is organised as follows:
 - `ZF.m` Implementation of the Zames-Falb criterion - See References 22 and 23.
 
 ## Getting Started
-Run `examples.m` to repeat the experiments in the paper or select a subset of the examples by defining them in the *Ex_array* variable.  
+Run `Examples.m` to repeat the experiments in the paper or select a subset of the examples by defining them in the *Ex_array* variable.  
