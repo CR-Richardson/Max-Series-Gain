@@ -11,7 +11,7 @@ function [alpha,ZFmult,data]=ZF(syst,WB,WC,Pflag,alpha_low)
 %
 % Purpose: 
 % Compute the maximum series gain (alpha) when using the ZF criterion as 
-% defined in References 22 and 23. 
+% defined in References 24 and 25. 
 %
 % Parameters:
 % syst:      Structure containing the system matrices of an example.

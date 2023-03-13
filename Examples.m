@@ -22,7 +22,7 @@
 % Popov_Like1: Relaxed Popov-Like criterion - See Theorem 2 and Corollary 1.
 % Popov_Like2: Relaxed Popov-Like criterion - See Theorem 2 and Corollary 2.
 % Park: Park's criterion - See Reference 13 Theorem 2.
-% ZF:Zames-Falb criterion - See References 22 and 23.
+% ZF: Zames-Falb criterion - See References 24 and 25.
 %
 % Variables:
 % Ex_array: The set of example systems to compute alpha for.
