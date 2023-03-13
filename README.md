@@ -17,7 +17,7 @@ The repository is organised as follows:
 - `Popov_Like1.m` Implementation of the Relaxed Popov-Like criterion - See Corollary 1.
 - `Popov_Like2.m` Implementation of the Relaxed Popov-Like criterion - See Corollary 2.
 - `Park.m` Implementation of the Park criterion - See Theorem 2 from Reference 13.
-- `ZF.m` Implementation of the Zames-Falb criterion - See References 22 and 23.
+- `ZF.m` Implementation of the Zames-Falb criterion - See References 24 and 25.
 
 ## Getting Started
 Run `Examples.m` to repeat the experiments in the paper or select a subset of the examples by defining them in the *Ex_array* variable.  
