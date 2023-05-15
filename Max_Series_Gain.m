@@ -39,7 +39,7 @@
 %% Script variables
 clear all; close all;
 Total_Ex   = 8;
-Ex_array   = 7:7;
+Ex_array   = 1:8;
 eta        = 10000;
 Pflag      = 1;
 
