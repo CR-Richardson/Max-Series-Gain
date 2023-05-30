@@ -26,8 +26,8 @@
 % Popov:       Popov criterion - See Theorem 2 and Remark 4.
 % Popov_Like1: Relaxed Popov-Like criterion - See Theorem 2 and Corollary 1.
 % Popov_Like2: Relaxed Popov-Like criterion - See Theorem 2 and Corollary 2.
-% Park:        Park's criterion - See Reference 10 Theorem 2.
-% ZF:          Zames-Falb criterion - See Reference 30.
+% Park:        Park's criterion - See Reference 11 Theorem 1.
+% ZF:          Zames-Falb criterion - See Reference 31.
 %
 % Variables
 % Total_Ex: Total number of examples
