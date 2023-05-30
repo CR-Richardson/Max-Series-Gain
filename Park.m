@@ -11,7 +11,7 @@ function [alpha,data,dec]=Park(syst)
 %
 % Purpose: 
 % Compute the maximum series gain (alpha) when using the Park criterion as 
-% defined by Theorem 2 from his 2002 IEEETAC paper
+% defined by Theorem 1 from his 2002 IEEETAC paper
 %
 % Note: Park uses negative feedback
 %
