@@ -1,5 +1,5 @@
 # Max-Series-Gain
-This code acompanies the paper *Strengthened Circle and Popov cirteria for the stability analysis of feedback systems with ReLU neural networks* where the experimental setup is detailed in the *numerical examples* section. The code computes the maximum series gain for which global asymptotic stability is maintained using various criteria. Furthermore, the number of decision variables used by the criteria is also returned to compare the complexity. This is tested on a number of example Lurie systems assumed to have repeated ReLU nonlinearities.  
+This code acompanies the paper [Strengthened Circle and Popov cirteria for the stability analysis of feedback systems with ReLU neural networks](https://ieeexplore.ieee.org/document/10155284) where the experimental setup is detailed in the *numerical examples* section. The code computes the maximum series gain for which global asymptotic stability is maintained using various criteria. Furthermore, the number of decision variables used by the criteria is also returned to compare the complexity. This is tested on a number of example Lurie systems assumed to have repeated ReLU nonlinearities.  
 
 ### Authors:
 * Carl R Richardson (cr2g16@soton.ac.uk)
