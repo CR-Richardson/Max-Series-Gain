@@ -13,13 +13,13 @@ The repository is organised as follows:
 - `Max_Series_Gain.m` The master script. It loops through each example, computing the maximum series gain (and # of decision variables) according to each criterion,  and displays the results.
 - `Examples.m` Defines the (A,B,C,D) matrices of the example systems.
 - `ZF_Parameters.m` Defines the Zames-Falb parameters used for each example.
-- `Circle.m` Implementation of the Circle criterion - See Theorem 1 and Remark 3.
-- `Circle_Like.m` Implementation of the Circle-Like criterion - See Theorem 1.
-- `Popov.m` Implementation of the Popov criterion - See Theorem 2 and Remark 4.
-- `Popov_Like1.m` Implementation of the Relaxed Popov-Like criterion - See Corollary 1.
-- `Popov_Like2.m` Implementation of the Relaxed Popov-Like criterion - See Corollary 2.
-- `Park.m` Implementation of the Park criterion - See Theorem 2 from Reference 11.
-- `ZF.m` Implementation of the Zames-Falb criterion - See Reference 31.
+- `Circle.m` Implementation of the Circle Criterion - See Theorem 1 and Remark 3.
+- `Circle_Like.m` Implementation of the Circle-like Criterion - See Theorem 1.
+- `Popov.m` Implementation of the Popov Criterion - See Theorem 2 and Remark 4.
+- `Popov_Like1.m` Implementation of the Relaxed Popov-like Criterion - See Corollary 1.
+- `Popov_Like2.m` Implementation of the Relaxed Popov-like Criterion - See Corollary 2.
+- `Park.m` Implementation of the Park Criterion - See Theorem 2 from Reference 11.
+- `ZF.m` Implementation of the Zames-Falb Criterion - See Reference 31.
 
 ## Getting Started
 Run `Max_Series_Gain.m` to repeat the experiments in the paper or select a subset of the examples by defining them in the *Ex_array* variable.  
