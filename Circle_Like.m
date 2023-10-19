@@ -63,7 +63,7 @@ lmiterm([1,1,1,P],A',1,'s');
 lmiterm([1,1,2,P],1,alpha*B);
 lmiterm([1,1,2,-V],C',1);
 
-lmiterm([1,2,2,V],-1,eye(m)-D,'s');
+lmiterm([1,2,2,V],-1,eye(m)-alpha*D,'s');
 lmiterm([1,2,2,Q11],1,1,'s');
 
 % P > 0
