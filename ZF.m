@@ -11,7 +11,7 @@ function [alpha,ZFmult,data,dec]=ZF(syst,WB,WC,Pflag,alpha_low)
 %
 % Purpose: 
 % Compute the maximum series gain (alpha) when using the ZF criterion as 
-% defined in Reference 31. 
+% defined in Reference 30. 
 %
 % Parameters:
 % syst:      Structure containing the system matrices of an example.
@@ -56,11 +56,13 @@ else
    ZFmult = [];
 end
  
+eps = 1e-6;
+
 %%
 % Determine alpha by repeatedly solving LMI until the largest alpha is 
 % found where LMI is feasible
 
-while ((alpha_up - alpha_low)/alpha_up) > 0.0001
+while ((alpha_up - alpha_low)/alpha_up) > eps
   
 setlmis([]);
 

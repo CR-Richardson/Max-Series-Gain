@@ -45,11 +45,13 @@ alpha_up  = Gm*0.999;
 alpha_low = 0; % We know alpha = 0 is always feasible as system's are stable
 alpha     = alpha_up;
 
+eps = 1e-6;
+
 %%
 % Determine alpha by repeatedly solving LMI until the largest alpha is 
 % found where LMI is feasible 
 
-while ((alpha_up - alpha_low)/alpha_up) > 0.0001
+while ((alpha_up - alpha_low)/alpha_up) > eps
 
 setlmis([]);
 
@@ -63,7 +65,7 @@ lmiterm([1,1,1,P],A',1,'s');
 lmiterm([1,1,2,P],1,alpha*B);
 lmiterm([1,1,2,-V],C',1);
 
-lmiterm([1,2,2,V],-1,eye(m)-alpha*D,'s');
+lmiterm([1,2,2,V],-1,eye(m)-D,'s');
 lmiterm([1,2,2,Q11],1,1,'s');
 
 % P > 0
