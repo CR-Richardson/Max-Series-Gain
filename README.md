@@ -20,6 +20,7 @@ The repository is organised as follows:
 - `Popov_Like2.m` Implementation of the Relaxed Popov-like Criterion - See Corollary 2.
 - `Park.m` Implementation of the Park Criterion - See Theorem 2 from Reference 11.
 - `ZF.m` Implementation of the Zames-Falb Criterion - See Reference 31.
+- `Aizerman.m` Calculates the Nyquist gain for each example.
 - `Poster.pdf` Summary of the novel results used in this implementation. 
 
 ## Getting Started
