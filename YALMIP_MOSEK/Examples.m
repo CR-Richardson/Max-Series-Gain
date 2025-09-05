@@ -13,7 +13,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Path to location of Hopfield40.mat, etc.
-path = '/Users/carlrichardson/Documents/MATLAB/MaxSeriesGain_ReLU_YALMIP/';
+path = '';
 
 %% Park - IEEETAC 2002 - Example 3
 A        = -diag([1 4 6 2 9 8 3 10 12]);
