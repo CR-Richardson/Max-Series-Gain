@@ -34,7 +34,7 @@ D     = syst.d;
 
 % Raise error if D != 0.
 if ~isequal(D, zeros(m))
-    error('D terms must be added to LMIs.', m, m);
+    error('D terms must be added to LMIs.');
 end
 
 %% Initialising alpha
