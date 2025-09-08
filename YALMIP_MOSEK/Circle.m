@@ -32,6 +32,11 @@ C     = syst.c;
 D     = syst.d;
 [n,m] = size(B); % n = dimension of state, m = dimension of output
 
+% Raise error if D != 0.
+if ~isequal(D, zeros(m))
+    error('D terms must be added to LMIs.', m, m);
+end
+
 %% Initialising alpha
 alpha_low = 0; % We know alpha = 0 is always feasible as system's are stable
 alpha     = alpha_up;
